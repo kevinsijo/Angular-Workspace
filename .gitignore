@@ -3,13 +3,17 @@
 # compiled output
 /AICTE/dist
 /AICTE/tmp
+/ITSA/dist
+/ITSA/tmp
 
 # dependencies
 /AICTE/node_modules
+/ITSA/node_modules
 
 # IDEs and editors
 .idea/
 /AICTE/.idea
+/ITSA/.idea
 .project
 .classpath
 .c9/
@@ -19,6 +23,7 @@
 
 # IDE - VSCode
 AICTE/.vscode/*
+ITSA/.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -32,11 +37,22 @@ AICTE/libpeerconnection.log
 AICTE/npm-debug.log
 AICTE/testem.log
 AICTE/typings
+ITSA/.sass-cache
+ITSA/connect.lock
+ITSA/coverage/*
+ITSA/libpeerconnection.log
+ITSA/npm-debug.log
+ITSA/testem.log
+ITSA/typings
 
 # e2e
 AICTE/e2e/*.js
 AICTE/e2e/*.map
+ITSA/e2e/*.js
+ITSA/e2e/*.map
 
 #System Files
 AICTE/.DS_Store
 AICTE/Thumbs.db
+ITSA/.DS_Store
+ITSA/Thumbs.db
