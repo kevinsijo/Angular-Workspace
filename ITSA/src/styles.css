@@ -29,12 +29,12 @@ body {
 }
 
 .index{
-  background-image: url("img/laptop.jpg");
+  background-image: url("assets/img/laptop.jpg");
   background-position: center center;
 }
 
 .back{
-  background-image: url("img/back.jpg");
+  background-image: url("assets/img/back.jpg");
 }
 #main-content{
   border-left: 3px solid rgb(47, 148, 249);
@@ -86,7 +86,7 @@ hr
 }
 
 .itsa-logo {
-  background-image: url('img/itsa-logo.png');
+  background-image: url('assets/img/itsa-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 100px;
