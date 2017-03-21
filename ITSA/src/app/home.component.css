@@ -1,0 +1,93 @@
+.masthead {
+  height: 100vh;
+}
+
+#title {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  font-size: 3em;
+}
+
+#content {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+#icon1 {
+  animation-name: ani;
+  -webkit-animation-name: ani;
+  animation-duration: 5s;
+  -webkit-animation-duration: 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes ani {
+  0% {
+    color: white;
+  }
+  25% {
+    color: #06829B;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: #06829B;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes ani {
+  0% {
+    color: white;
+  }
+  25% {
+    color: #06829B;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: #06829B;
+  }
+  100% {
+    color: white;
+  }
+}
+
+#div1 {
+  height: 10px;
+  animation-name: movdiv;
+}
+
+@keyframes movdiv {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: 100px;
+  }
+  50% {
+    top: 0;
+  }
+  100% {
+    top: 100px;
+  }
+}
+
+#space {
+  height: 150px;
+}
+
+footer {
+  margin-top: 0;
+}

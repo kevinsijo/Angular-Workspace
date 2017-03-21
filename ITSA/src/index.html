@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>FirstApp</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" href="itsa-favicon.ico">
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="bower_components/bootstrap-social/bootstrap-social.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  <style>
+    .media-object {
+      width: 150px;
+      height: 180px;
+    }
+  </style>
+</head>
+<body>
+  <app-root>Loading...</app-root>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll >= 50) {
+        $("#nav").addClass("darkNav");
+        $('#navbarLeft').addClass('leftNavbar');
+        $('#navbarRight').addClass('rightNavbar');
+        $('#ITSA').addClass('itsa-logo');
+      } else {
+        $("#nav").removeClass("darkNav");
+        $('#navbarLeft').removeClass('leftNavbar');
+        $('#navbarRight').removeClass('rightNavbar');
+        $('#ITSA').removeClass('itsa-logo');
+      }
+    });
+  </script>
+</body>
+</html>

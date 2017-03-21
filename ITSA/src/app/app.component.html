@@ -1,0 +1,54 @@
+<nav id="nav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav" id="navbarLeft">
+        <li><a href="./core.html">Committee</a></li>
+        <li><a href="./workshop.html">Workshop</a></li>
+        <li><a href="./achievements.html">Achievements</a></li>
+      </ul>
+      <ul class="nav navbar-nav" id="navbarRight">
+        <li><a [routerLink]="['./faculty']">Faculty</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a [routerLink]="['./developer']">Developers</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.navbar -->
+</nav>
+<a [routerLink]="['./home']">
+  <div id="ITSA"></div>
+</a>
+<router-outlet></router-outlet>
+<footer>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <p class="text-muted">Copyright &copy; <span id="currentYear"></span> ITSA, Sardar Patel Institute of Technology</p>
+    </div>
+    <div class="col-xs-12">
+      <div><span class="text-muted">Follow us at:</span>
+        <a href="https://www.facebook.com/groups/591598247557131/" target="_blank"><span class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></span></a>
+      </div>
+    </div>
+    <div class="hidden">
+      <!-- Start of SimpleHitCounter Code -->
+      <div align="right">
+        <img src="http://simplehitcounter.com/hit.php?uid=2245548&f=255&b=16777215" border="0" height="18" width="83" alt="web counter">
+      </div>
+      <!-- End of SimpleHitCounter Code -->
+    </div>
+  </div>
+</div>
+</footer>
+

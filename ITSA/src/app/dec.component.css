@@ -1,0 +1,36 @@
+.imgbox {
+  margin: auto;
+  width: 910px;
+  height: 1000px;
+  margin-top: 20px;
+}
+
+.imgbox1 {
+  margin: auto;
+  width: 910px;
+  height: 700px;
+  margin-top: 20px;
+}
+
+.fstyle {
+  text-align: center;
+  font-size: 20px;
+}
+
+.imgcontainer {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+img {
+  height: 200px;
+  width: 180px;
+  z-index: 10;
+  margin-left: 60px;
+  margin-top: 10px
+}
+
+body {
+  color: rgb(24, 109, 195);
+}
