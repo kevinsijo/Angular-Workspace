@@ -8,6 +8,7 @@
 /AICTE/node_modules
 
 # IDEs and editors
+.idea/*
 /AICTE/.idea
 .project
 .classpath
