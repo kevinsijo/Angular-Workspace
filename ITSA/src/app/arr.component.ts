@@ -1,6 +1,6 @@
 import {Component, OnInit, ElementRef} from '@angular/core';
+declare var $: any;
 
-declare var $:any;
 @Component({
   selector: 'app-arr',
   template: `
