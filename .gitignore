@@ -1,0 +1,41 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/AICTE/dist
+/AICTE/tmp
+
+# dependencies
+/AICTE/node_modules
+
+# IDEs and editors
+/AICTE/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+AICTE/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+AICTE/.sass-cache
+AICTE/connect.lock
+AICTE/coverage/*
+AICTE/libpeerconnection.log
+AICTE/npm-debug.log
+AICTE/testem.log
+AICTE/typings
+
+# e2e
+AICTE/e2e/*.js
+AICTE/e2e/*.map
+
+#System Files
+AICTE/.DS_Store
+AICTE/Thumbs.db
