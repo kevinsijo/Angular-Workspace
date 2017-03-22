@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { RandomComponent } from './random.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RandomComponent
   ],
   imports: [
     BrowserModule,

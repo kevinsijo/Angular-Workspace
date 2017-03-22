@@ -6,7 +6,7 @@ declare var $: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  
+
   ngOnInit(){
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
@@ -22,5 +22,5 @@ export class AppComponent implements OnInit{
             $('#ITSA').removeClass('itsa-logo');
           }
     });
-  }
+    }
 }
