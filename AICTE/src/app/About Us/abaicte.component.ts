@@ -1,19 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import { Temp1Component} from '../Shared/temp1.component';
+import { data } from './Data/abaicte.data';
+import { GenerateBoxService } from "../Shared/generate-box.service";
 
 @Component({
   selector: 'aicte-abaicte',
   templateUrl: './abaicte.component.html',
   styleUrls: ['./abaicte.component.css'],
-  providers: [Temp1Component]
+  providers: [GenerateBoxService]
 })
-export class AbaicteComponent implements OnInit {
-  data:string='Changed!';
-  link1:string='https://www.youtube.com';
-  val:string='return false';
-  constructor() {}
+export class AbaicteComponent implements OnInit{
+  data = data;
+  
+  constructor(private generate: GenerateBoxService) {}
+  
   ngOnInit() {
-
+    this.generate.load(this.data);
   }
-
+  
+  
 }

@@ -5,151 +5,139 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div class="row">
-            <div class="col-lg-12 white-panel">
-              <h3 class="page-header">{{x}}</h3> Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit.
-              Ut sit amet odio augue. Aliquam volutpat,
-              urna
-              euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus.
-              Donec tempus
-              semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in.
-              Vestibulum in
-              lorem
-              sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere
-              libero et
-              tristique
-              condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis. Aenean
-              libero
-              magna,
-              eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec
-              facilisis ipsum
-              euismod non.
-            </div>
+            <a [attr.href]="data[0].link" [class.disabled]="data[0].state">
+              <div class="col-lg-12 white-panel">
+                <h3 class="page-header">{{ data[0].header }}</h3>
+                {{ data[0].body }}
+              </div>
+            </a>
           </div>
           <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 white-panel">
-              <h3 class="page-header">ICON</h3>Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Ut sit amet odio augue.
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 white-panel">
-              <h3 class="page-header">Court</h3>Lorem ipsum dolor sit amet,
-              consectetur
-              adipiscing elit. Ut sit amet odio augue. Aliquam volutpat,
-              urnaeleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec
-              facilisis
-            </div>
+            <a [attr.href]="data[1].link" [class.disabled]="data[1].state">
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 white-panel">
+                <h3 class="page-header">{{data[1].header}}</h3>
+                {{ data[1].body }}
+              </div>
+            </a>
+            <a [attr.href]="data[2].link" [class.disabled]="data[2].state">
+              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 white-panel">
+                <h3 class="page-header">{{ data[2].header }}</h3>
+                {{ data[2].body }}
+              </div>
+            </a>
           </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white-panel">
-          <h3 class="page-header">Intro</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
-          volutpat,
-          urna
-          euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus. Donec
-          tempus
-          semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in. Vestibulum in
-          lorem
-          sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere libero et
-          tristique
-          condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis. Aenean libero
-          magna,
-          eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec facilisis
-          ipsum
-          euismod non.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue.
-          Aliquam volutpat,
-          urna
-          euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus. Donec
-          tempus
-          semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in. Vestibulum in
-          lorem
-          sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere libero et
-          tristique
-          condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis. Aenean libero
-          magna,
-          eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec facilisis
-          ipsum euismod non.eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi,
-          nec facilisis
-          ipsum
-        </div>
+
       </div>
-      <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 white-panel">
-          <h3 class="page-header">IMAGE</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
-          volutpat,
-          urna
-          euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus. Donec
-          tempus
-          semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in. Vestibulum in
-          lorem
-          sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere libero et
-          tristique
-        </div>
-        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 white-panel">
-          <h3 class="page-header">Exec Comm.</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
-          volutpat,
-          urna
-          euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus. Donec
-          tempus
-          semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in. Vestibulum in
-          lorem
-          sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere libero et
-          tristique
-          condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis. Aenean libero
-          magna,
-          eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec facilisis
-          ipsum
-        </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white-panel">
+        <h3 class="page-header">Intro</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
+        volutpat,
+        urna
+        euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus. Donec
+        tempus
+        semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in. Vestibulum in
+        lorem
+        sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere libero et
+        tristique
+        condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis. Aenean libero
+        magna,
+        eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec facilisis
+        ipsum
+        euismod non.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue.
+        Aliquam volutpat,
+        urna
+        euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus. Donec
+        tempus
+        semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in. Vestibulum in
+        lorem
+        sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere libero et
+        tristique
+        condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis. Aenean libero
+        magna,
+        eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec facilisis
+        ipsum euismod non.eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi,
+        nec facilisis
+        ipsum
       </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 white-panel">
-          <h3 class="page-header">ICON</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit
-          amet odio augue. Augue odio
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 white-panel">
-          <h3 class="page-header">Regional</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </div>
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 white-panel">
+        <h3 class="page-header">IMAGE</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
+        volutpat,
+        urna
+        euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus. Donec
+        tempus
+        semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in. Vestibulum in
+        lorem
+        sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere libero et
+        tristique
       </div>
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-panel">
-          <h3 class="page-header">More Information</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
-          volutpat,
-          urna euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus.
-          Donec
-          tempus semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in.
-          Vestibulum
-          in lorem sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere
-          libero
-          et tristique condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis.
-          Aenean libero magna, eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem
-          mi,
-          nec facilisis ipsum euismod non.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
-          volutpat,
-          urna euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus.
-          Donec
-          tempus semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in.
-          Vestibulum
-          in lorem sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere
-          libero
-          et tristique condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis.
-          Aenean libero magna, eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem
-          mi,
-          nec facilisis ipsum euismod non.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
-          volutpat,
-          urna euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus.
-          Donec
-        </div>
+      <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 white-panel">
+        <h3 class="page-header">Exec Comm.</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
+        volutpat,
+        urna
+        euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus. Donec
+        tempus
+        semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in. Vestibulum in
+        lorem
+        sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere libero et
+        tristique
+        condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis. Aenean libero
+        magna,
+        eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec facilisis
+        ipsum
       </div>
     </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 white-panel">
+        <h3 class="page-header">ICON</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit
+        amet odio augue. Augue odio
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 white-panel">
+        <h3 class="page-header">Regional</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-panel">
+        <h3 class="page-header">More Information</h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
+        volutpat,
+        urna euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus.
+        Donec
+        tempus semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in.
+        Vestibulum
+        in lorem sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere
+        libero
+        et tristique condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis.
+        Aenean libero magna, eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem
+        mi,
+        nec facilisis ipsum euismod non.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
+        volutpat,
+        urna euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus.
+        Donec
+        tempus semper pulvinar. Morbi malesuada tortor velit, nec pellentesque ante lobortis in.
+        Vestibulum
+        in lorem sodales, ornare neque vel, egestas urna. Integer tempus laoreet lobortis. Ut posuere
+        libero
+        et tristique condimentum. Fusce arcu massa, hendrerit tincidunt auctor sed, posuere eu turpis.
+        Aenean libero magna, eleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem
+        mi,
+        nec facilisis ipsum euismod non.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet odio augue. Aliquam
+        volutpat,
+        urna euismod vestibulum volutpat, tellus nisl semper felis, ac facilisis est nisi at lacus.
+        Donec
+      </div>
+    </div>
+  </div>
   </div>
 </main>
 
