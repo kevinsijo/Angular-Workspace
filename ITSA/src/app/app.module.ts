@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -9,6 +9,7 @@ import {routing} from "./app.routing";
 import { DecComponent } from './dec.component';
 import { FacComponent } from './fac.component';
 import { ArrComponent } from './arr.component';
+import { DatadrivenComponent } from './datadriven/datadriven.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +17,14 @@ import { ArrComponent } from './arr.component';
     HomeComponent,
     DecComponent,
     FacComponent,
-    ArrComponent
+    ArrComponent,
+    DatadrivenComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     HttpModule,
-    routing
+    routing,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

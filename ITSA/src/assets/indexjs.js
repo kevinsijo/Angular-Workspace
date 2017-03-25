@@ -53,3 +53,5 @@ $('#nav .navbar-nav li>a').click(function () {
 
 //Set year in footer automatically
 $('#currentYear').html(new Date().getFullYear());
+
+

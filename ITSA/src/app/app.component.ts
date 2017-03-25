@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+
 declare var $: any;
 @Component({
   selector: 'app-root',
@@ -6,7 +8,7 @@ declare var $: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-
+  constructor(private router: Router) { }
   ngOnInit(){
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
@@ -21,6 +23,12 @@ export class AppComponent implements OnInit{
             $('#navbarRight').removeClass('rightNavbar');
             $('#ITSA').removeClass('itsa-logo');
           }
+    });
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
+        return;
+      }
+      window.scrollTo(0,0)
     });
     }
 }
