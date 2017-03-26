@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { GenerateBoxService } from "../Shared/generate-box.service";
+import { GenerateBoxService } from "../../Shared/generate-box.service";
 
-import { data } from './Data/abaicte.data';
+import { data } from '../Data/abaicte.data';
 
 @Component({
   selector: 'aicte-regoff',
@@ -12,9 +12,9 @@ import { data } from './Data/abaicte.data';
 export class RegoffComponent implements OnInit {
 
   data = data;
-    
+
     constructor(private generate: GenerateBoxService) {}
-    
+
     ngOnInit() {
       this.generate.load(this.data);
     }

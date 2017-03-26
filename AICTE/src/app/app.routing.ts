@@ -1,8 +1,7 @@
 import {Routes, RouterModule} from "@angular/router";
 import {HomeComponent} from "./home.component";
-import {AbaicteComponent} from "./About Us/abaicte.component";
-import {FacComponent} from "./About Us/fac.component";
-import {RegoffComponent} from "./About Us/regoff.component";
+import {FacComponent} from "./About Us/Faculty/fac.component";
+import {RegoffComponent} from "./About Us/Regional Office/regoff.component";
 import {AdminbComponent} from "./Bureaus/adminb.component";
 import {AcadbComponent} from "./Bureaus/acadb.component";
 import {AppbComponent} from "./Bureaus/appb.component";
@@ -19,7 +18,7 @@ import {ScstcellComponent} from "./Grievance/scstcell.component";
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'aboutAICTE', component: AbaicteComponent },
+  { path: 'aboutAICTE', loadChildren: 'app/About Us/About AICTE/aboutus.module#AboutusModule' },
   { path: 'faculty', component: FacComponent },
   { path: 'regional_office', component: RegoffComponent },
   { path: 'administration_bureau', component: AdminbComponent},

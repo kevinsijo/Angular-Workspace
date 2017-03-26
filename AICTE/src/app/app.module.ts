@@ -3,15 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
 import { NavhomeComponent } from './navhome.component';
 import { routing} from './app.routing';
-import { Temp1Component } from './Shared/temp1.component';
-import { AbaicteComponent } from './About Us/abaicte.component';
-import { RegoffComponent } from './About Us/regoff.component';
-import { FacComponent } from './About Us/fac.component';
-import { Temp2Component } from './Shared/temp2.component';
+import { RegoffComponent } from './About Us/Regional Office/regoff.component';
+import { FacComponent } from './About Us/Faculty/fac.component';
 import { AdminbComponent } from './Bureaus/adminb.component';
 import { AcadbComponent } from './Bureaus/acadb.component';
 import { PquesComponent } from './Bureaus/pques.component';
@@ -30,11 +28,8 @@ import { ScstcellComponent } from './Grievance/scstcell.component';
     AppComponent,
     HomeComponent,
     NavhomeComponent,
-    Temp1Component,
-    AbaicteComponent,
     RegoffComponent,
     FacComponent,
-    Temp2Component,
     AdminbComponent,
     AcadbComponent,
     PquesComponent,

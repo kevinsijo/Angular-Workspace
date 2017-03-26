@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Box } from "./box";
 import { GenerateBoxService } from "./generate-box.service";
 
@@ -11,9 +12,9 @@ import { GenerateBoxService } from "./generate-box.service";
 })
 export class Temp1Component implements OnInit {
   data : Box[];
-  
+
   constructor(private generate: GenerateBoxService) {}
-  
+
   ngOnInit() {
       this.data = this.generate.get();
   }

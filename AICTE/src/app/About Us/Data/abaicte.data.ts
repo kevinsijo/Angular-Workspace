@@ -3,7 +3,7 @@ import { Box } from "../../Shared/box";
 export const data : Box [] = [
     {
       state:0,
-      link:"https://www.youtube.com/watch?v=BYLKqCWAYwQ",
+      link: "third",
       header : "This is B0",
       body : `Lorem ipsum dolor sit amet, consectetur adipiscing
                     elit.
@@ -33,11 +33,21 @@ export const data : Box [] = [
     },
     {
       state: 1,
-      link:"https://www.youtube.com",
+      link:"",
       header: "Court",
       body: `Lorem ipsum dolor sit amet,
                     consectetur
                     adipiscing elit. Ut sit amet odio augue. Aliquam volutpat,
+                    urnaeleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec
+                    facilisis`
+    },
+    {
+      state: 1,
+      link:"",
+      header: "Changes in third layer",
+      body: `Lorem ipsum dolor sit amet,
+                    consectetur
+                    adipasdfghjkliuytrYESSSSSSSSiscing elit. Ut sit amet odio augue. Aliquam volutpat,
                     urnaeleifend ultrices lectus id, pellentesque lobortis nulla. Nulla cursus sem mi, nec
                     facilisis`
     }
