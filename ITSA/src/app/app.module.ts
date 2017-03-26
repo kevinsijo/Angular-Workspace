@@ -10,6 +10,8 @@ import { DecComponent } from './dec.component';
 import { FacComponent } from './fac.component';
 import { ArrComponent } from './arr.component';
 import { DatadrivenComponent } from './datadriven/datadriven.component';
+import { ChartComponent } from './chart.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,15 @@ import { DatadrivenComponent } from './datadriven/datadriven.component';
     DecComponent,
     FacComponent,
     ArrComponent,
-    DatadrivenComponent
+    DatadrivenComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
     routing,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
