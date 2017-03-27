@@ -60,11 +60,11 @@
                  aria-expanded="false">BUREAUS&nbsp;<span class="fa fa-caret-down"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['administration_bureau']">Administrative Bureau</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['academic_bureau']">Academic Bureau</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['finance_bureau']">Finance Bureau</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['approval_buraeu']">Approval Bureau</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['parliament_questions']">Parliament Questions</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./administration_bureau']">Administrative Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./academic_bureau']">Academic Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./finance_bureau']">Finance Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./approval_buraeu']">Approval Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./parliament_questions']">Parliament Questions</a></li>
                 <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Research,Institutions and faculty
                   development</a></li>
               </ul>
@@ -74,9 +74,9 @@
                  aria-expanded="false">GRIEVANCES&nbsp;<span class="fa fa-caret-down"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Anti Ragging</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">RTI</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">CVC</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['anti_ragging']">Anti Ragging</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['right_to_information']">RTI</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['']">CVC</a></li>
                 <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Public grievance</a></li>
                 <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">SC/ST Cell</a></li>
               </ul>
@@ -97,7 +97,7 @@
               </ul>
             </li>
             <li class="dropdown ">
-              <a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#">DASHBOARD&nbsp;<span
+              <a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" [routerLink]="['./dashboard']">DASHBOARD&nbsp;<span
                 class="fa fa-dashboard"></span></a>
 
 
