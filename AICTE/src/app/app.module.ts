@@ -22,6 +22,7 @@ import { RtiComponent } from './Grievance/rti.component';
 import { CvcComponent } from './Grievance/cvc.component';
 import { PubgrievComponent } from './Grievance/pubgriev.component';
 import { ScstcellComponent } from './Grievance/scstcell.component';
+import { DashboardComponent } from './Dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ScstcellComponent } from './Grievance/scstcell.component';
     RtiComponent,
     CvcComponent,
     PubgrievComponent,
-    ScstcellComponent
+    ScstcellComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
