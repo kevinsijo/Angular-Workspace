@@ -7,11 +7,14 @@ import { ActComponent } from './act.component';
 import { AbaicteComponent } from './abaicte.component';
 import { AbaicteStartComponent } from './abaicte-start.component';
 import { DelegationComponent } from './delegation.component';
+import { LegalproceduresComponent } from './legalprocedures.component';
+import { VigilanceproceduresComponent } from './vigilanceprocedures.component';
+import { OfficeproceduresComponent } from './officeprocedures.component';
 
 @NgModule({
     imports: [aboutusRouting],
     exports: [],
-    declarations: [ActComponent,AbaicteComponent, Temp1Component, Temp2Component, AbaicteStartComponent, DelegationComponent],
+    declarations: [ActComponent,AbaicteComponent, Temp1Component, Temp2Component, AbaicteStartComponent, DelegationComponent, LegalproceduresComponent, VigilanceproceduresComponent, OfficeproceduresComponent],
     providers: [],
 })
 export class AboutusModule { }
