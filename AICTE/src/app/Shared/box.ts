@@ -1,5 +1,3 @@
-
-
 export class Box {
   state: number;
   href: string;

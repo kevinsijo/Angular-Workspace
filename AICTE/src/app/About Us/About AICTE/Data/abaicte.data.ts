@@ -1,4 +1,4 @@
-import { Box } from "../../Shared/box";
+import { Box } from "../../../Shared/box";
 
 export const data : Box [] = [
   {

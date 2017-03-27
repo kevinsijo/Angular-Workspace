@@ -1,6 +1,4 @@
-/**
- * Created by adhri on 23-03-2017.
- */
+
 import {Routes, RouterModule} from "@angular/router";
 import {AbaicteComponent} from "./abaicte.component";
 import {ActComponent} from "./act.component";

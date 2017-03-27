@@ -1,6 +1,3 @@
-/**
- * Created by adhri on 25-03-2017.
- */
 import { NgModule } from '@angular/core';
 
 import { Temp1Component } from '../../Shared/temp1.component';
