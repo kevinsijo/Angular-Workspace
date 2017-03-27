@@ -4,12 +4,12 @@ import { data } from '../Data/abaicte.data';
 import { GenerateBoxService } from "../../Shared/generate-box.service";
 
 @Component({
-  selector: 'aicte-thirdlayer',
-  templateUrl: './thirdlayer.component.html',
-  styleUrls: ['./thirdlayer.component.css'],
+  selector: 'aicte-act',
+  templateUrl: './act.component.html',
+  styleUrls: ['./act.component.css'],
   providers: [GenerateBoxService]
 })
-export class ThirdlayerComponent implements OnInit {
+export class ActComponent implements OnInit {
   data=data;
   constructor(private generate: GenerateBoxService) {}
 

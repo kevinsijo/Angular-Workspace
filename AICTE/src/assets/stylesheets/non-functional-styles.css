@@ -391,13 +391,13 @@ h3{
 }
 
 div.white-panel:hover {
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
     color: #555152;
     background-color: white;
     opacity:1;
 }
 div.white-panel:hover .page-header{
-    transition: all 0.4s ease-in;
+    transition: all 0.3s ease-in;
     border-color: #FFA500;
     color: #FFA500;
 }

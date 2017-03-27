@@ -1,329 +1,171 @@
 <header>
-  <section id="brand" class="row">
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-9">
-     <a [routerLink]="['']">
-      <img src="../assets/images/aicte.png" alt="AICTE" class="img-responsive img-circle"
-           style="height:150px;width:150px;padding: 10px">
-     </a>
-    </div>
-    <div class="col-lg-9 col-md-9 col-sm-9 hidden-xs">
-      <h1>All India Council for Technical Education<br/>
-        <small>In learning you will teach, and in teaching you will learn</small>
-      </h1>
-    </div>
-    <div class="hidden-lg hidden-md hidden-sm col-xs-3" style="padding: 45px 20px 5px 0">
-      <h1>AICTE</h1>
+  <section id="brand" class="container-fluid side-collapse-container">
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
+        <a [routerLink]="['./home']"><img src="../assets/images/aicte.png" alt="AICTE"
+                        class="img-circle"
+                        style="height:150px;width:150px;padding:10px;"></a>
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 text-left text-capitalize" id="mastHeadBrand">
+        <h1 class="heading">All India Council for Technical Education<br/>
+          <small id="mastHeadTagline" class="fade-in">We Promote Transparency And Accountability</small>
+        </h1>
+      </div>
     </div>
   </section>
-  <nav id="nav">
-    <div class="navbar navbar-default" id="fullNav">
-      <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <ul class="nav navbar-nav visible-lg visible-md visible-sm">
-        <li><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span
-          class="caret"></span>
-        </a>
-          <ul class="dropdown-menu">
-            <li><a [routerLink]="['aboutAICTE']">About AICTE</a></li>
-            <li><a [routerLink]="['regional_office']">Regional office</a></li>
-            <li><a [routerLink]="['faculty']">Faculty</a></li>
-
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown"  class ="btn btn-1 "href="#">Bureaus <span class="caret" ></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a [routerLink]="['administration_bureau']">Administrative Bureau</a></li>
-            <li><a [routerLink]="['academic_bureau']">Academic Bureau</a></li>
-            <li><a [routerLink]="['finance_bureau']">Finance Bureau</a></li>
-            <li><a [routerLink]="['approvals_bureau']">Approval Bureau</a></li>
-            <li><a [routerLink]="['parliament_questions']">Parliament Questions</a></li>
-            <li><a [routerLink]="['rifd']">Research,Institutions and faculty development</a></li>
-
-          </ul>
-
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Grievance <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a [routerLink]="['anti_ragging']">Anti Ragging</a></li>
-            <li><a [routerLink]="['central_vigilance_commission']">RTI</a></li>
-            <li><a href="#">CVC</a></li>
-            <li><a href="#">Public grievance</a></li>
-            <li><a href="#">SC/ST Cell</a></li>
-          </ul>
-
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reports <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Annual Report</a></li>
-            <li><a href="#">Committee Report</a></li>
-            <li><a href="#">Knowledge Commission Report</a></li>
-            <li><a href="#">Sarva Shiksha Abhiyan </a></li>
-            <li><a href="#">Rashtiya Uchatar Shiksha Abhiyan - RUSA</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dashboard</a>
-
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Education <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Educational Network</a></li>
-            <li><a href="#">Collaborations</a></li>
-            <li><a href="#">Mobile Education</a></li>
-            <li><a href="#">Finishing Schools</a></li>
-            <li><a href="#">Vocal Education</a></li>
-            <li><a href="#">Community Colleges</a></li>
-            <li><a href="#">Distance Education</a></li>
-            <li><a href="#">Institutions in India</a></li>
-            <li><a href="#">Use of ICT</a></li>
-            <li><a href="#">Library Services</a></li>
-            <li><a href="#">Project Factory</a></li>
-          </ul>
-
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Students <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Admission</a></li>
-            <li><a href="#">Scholarship</a></li>
-            <li><a href="#">Awards</a></li>
-            <li><a href="#">Ethics</a></li>
-            <li><a href="#">Loans</a></li>
-            <li><a href="#">Facilities for Differently abled</a></li>
-            <li><a href="#">Facilities for Girls</a></li>
-            <li><a href="#">Placements</a></li>
-            <li><a href="#">Want to be Entrepreneur</a></li>
-            <li><a href="#">Research funds</a></li>
-            <li><a href="#">Model Syllabus</a></li>
-          </ul>
-
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bulletin <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Advertisements</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Circulars</a></li>
-            <li><a href="#">Tenders</a></li>
-            <li><a href="#">Newsletters</a></li>
-            <li><a href="#">Photo-gallery</a></li>
-            <li><a href="#">Start-Up Policy</a></li>
-          </ul>
-        </li>
-        <li class="visible-sm visible-xs" style="width: 94%;padding: 0 3%;">
-          <label class="sr-only">Search</label>
-          <form method="POST" style="padding: 0;margin: 0">
-            <div class="input-group">
+  <nav role="navigation" class="navbar navbar-inverse box-shadow" id="fullNav" style="background-color:#555152;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button data-toggle="collapse-side" data-target=".side-collapse"
+                data-target-2=".side-collapse-container"
+                type="button" class="navbar-toggle pull-left" id="collapse-menu">
+          <span class="icon-bar" id="bar1"></span>
+          <span class="icon-bar" id="bar2"></span>
+          <span class="icon-bar" id="bar3"></span>
+        </button>
+        <a [routerLink]="['home']" class="navbar-brand hidden-xs"><i class="fa fa-home" id="homeIcon"
+                                                     style="font-size: 2em;"></i></a>
+      </div>
+      <div class="navbar-inverse side-collapse in not-top" id="miniNav">
+        <nav role="navigation" class="navbar-collapse" style="background-color:#555152;">
+          <ul class="nav navbar-nav">
+            <li class="visible-xs" style="display:block;">
+              <a href=""><img src="../assets/images/aicte.png" alt="AICTE" class="img-centered"></a>
+            </li>
+            <li class="visible-xs" style="width: 94%;padding: 0 3%;">
               <label class="sr-only">Search</label>
-              <input type="text" name="search" class="form-control" placeholder="Search" aria-describedby="search">
-              <span class="input-group-btn"><button class="btn btn-default"><span
-                class="glyphicon glyphicon-search"></span></button></span>
-            </div>
-          </form>
-        </li>
-      </ul>
-      <form method = "post" class="navbar-right navbar-form hidden-sm hidden-xs" style="padding: 0;margin: 0">
-        <label class="sr-only">Search</label>
-        <input type="text" name = "search" class="form-control" placeholder="Search" aria-describedby="search">
-        <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-      </form>
-      <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-        <button class="navmenu-brand">X</button>
-        <form style="padding: 5%;margin: 0">
-          <div class="input-group">
-            <label class="sr-only">Search</label>
-            <input type="text" class="form-control" placeholder="Search" aria-describedby="search">
-            <span class="input-group-btn"><button class="btn btn-default"><span
-              class="glyphicon glyphicon-search"></span></button></span>
-          </div>
-        </form>
-        <div class="nav navmenu-nav">
-          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion"
-                     href="#collapseOne"
-                     aria-expanded="false" aria-controls="collapseOne">
-                    About Us
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
-                   aria-labelledby="headingOne">
-                <ul class="list-group">
-                  <li><a [routerLink]="['aboutAICTE']">About AICTE</a></li>
-                  <li><a [routerLink]="['regional_office']">Regional office</a></li>
-                  <li><a [routerLink]="['faculty']">Faculty</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion"
-                     href="#collapseTwo"
-                     aria-expanded="false" aria-controls="collapseTwo">
-                    Bureau
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                   aria-labelledby="headingTwo">
-                <ul class="list-group">
-                  <li><a href="#">Administrative Bureau</a></li>
-                  <li><a href="#">Academic Bureau</a></li>
-                  <li><a href="#">Finance Bureau</a></li>
-                  <li><a href="#">Approval Bureau</a></li>
-                  <li><a href="#">Parliament Questions</a></li>
-                  <li><a href="#">Research,Institutions and faculty development</a></li>
+              <form method="POST" style="padding: 0;margin: 0" id="searchMiniNav">
+                <div class="input-group">
+                  <label class="sr-only">Search</label>
+                  <input type="text" name="search" class="form-control" placeholder="Search"
+                         aria-describedby="search">
+                  <span class="input-group-btn"><button class="btn btn-default"><span
+                    class="glyphicon glyphicon-search"></span></button></span>
+                </div>
+              </form>
+            </li>
+            <li><a class="dropdown-toggle
+                           hvr-underline-from-center" data-toggle="dropdown" href="#"
+                   aria-expanded="false">ABOUT US&nbsp;<span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu " role="menu">
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./aboutAICTE']">About AICTE</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./regional_office']">Regional office</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./faculty']">Faculty</a></li>
 
-                </ul>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion"
-                     href="#collapseThree"
-                     aria-expanded="false" aria-controls="collapseThree">
-                    Grievances
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                   aria-labelledby="headingThree">
-                <ul class="list-group">
-                  <li><a href="#">Anti Ragging</a></li>
-                  <li><a href="#">RTI</a></li>
-                  <li><a href="#">CVC</a></li>
-                  <li><a href="#">Public grievance</a></li>
-                  <li><a href="#">SC/ST Cell</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingFour">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion"
-                     href="#collapseFour"
-                     aria-expanded="false" aria-controls="collapseFour">
-                    Reports
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
-                   aria-labelledby="headingFour">
-                <ul class="list-group">
-                  <li><a href="#">Annual Report</a></li>
-                  <li><a href="#">Committee Report</a></li>
-                  <li><a href="#">Knowledge Commission Report</a></li>
-                  <li><a href="#">Sarva Shiksha Abhiyan </a></li>
-                  <li><a href="#">Rashtiya Uchatar Shiksha Abhiyan - RUSA</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab">
-                <h4 class="panel-title">
-                  <a role="button">
-                    Dashboard
-                  </a>
-                </h4>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingFive">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion"
-                     href="#collapseFive"
-                     aria-expanded="false" aria-controls="collapseThree">
-                    Education
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-                   aria-labelledby="headingFive">
-                <ul class="list-group">
-                  <li><a href="#">Educational Network</a></li>
-                  <li><a href="#">Collaborations</a></li>
-                  <li><a href="#">Mobile Education</a></li>
-                  <li><a href="#">Finishing Schools</a></li>
-                  <li><a href="#">Vocal Education</a></li>
-                  <li><a href="#">Community Colleges</a></li>
-                  <li><a href="#">Distance Education</a></li>
-                  <li><a href="#">Institutions in India</a></li>
-                  <li><a href="#">Use of ICT</a></li>
-                  <li><a href="#">Library Services</a></li>
-                  <li><a href="#">Project Factory</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingSix">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion"
-                     href="#collapseSix"
-                     aria-expanded="false" aria-controls="collapseSix">
-                    Students
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
-                   aria-labelledby="headingSix">
-                <ul class="list-group">
-                  <li><a href="#">Admission</a></li>
-                  <li><a href="#">Scholarship</a></li>
-                  <li><a href="#">Awards</a></li>
-                  <li><a href="#">Ethics</a></li>
-                  <li><a href="#">Loans</a></li>
-                  <li><a href="#">Facilities for Differently abled</a></li>
-                  <li><a href="#">Facilities for Girls</a></li>
-                  <li><a href="#">Placements</a></li>
-                  <li><a href="#">Want to be Entrepreneur</a></li>
-                  <li><a href="#">Research funds</a></li>
-                  <li><a href="#">Model Syllabus</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingSeven">
-                <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion"
-                     href="#collapseSeven"
-                     aria-expanded="false" aria-controls="collapseSeven">
-                    Bulletin
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel"
-                   aria-labelledby="headingSeven">
-                <ul class="list-group">
-                  <li><a href="#">Advertisements</a></li>
-                  <li><a href="#">Jobs</a></li>
-                  <li><a href="#">Circulars</a></li>
-                  <li><a href="#">Tenders</a></li>
-                  <li><a href="#">Newsletters</a></li>
-                  <li><a href="#">Photo-gallery</a></li>
-                  <li><a href="#">Start-Up Policy</a></li>
-                </ul>
-              </div>
-            </div>
+              </ul>
+            </li>
+            <li class="dropdown ">
+              <a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#"
+                 aria-expanded="false">BUREAUS&nbsp;<span class="fa fa-caret-down"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['administration_bureau']">Administrative Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['academic_bureau']">Academic Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['finance_bureau']">Finance Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['approval_buraeu']">Approval Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['parliament_questions']">Parliament Questions</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Research,Institutions and faculty
+                  development</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#"
+                 aria-expanded="false">GRIEVANCES&nbsp;<span class="fa fa-caret-down"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Anti Ragging</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">RTI</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">CVC</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Public grievance</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">SC/ST Cell</a></li>
+              </ul>
+
+            </li>
+            <li class="dropdown ">
+              <a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#"
+                 aria-expanded="false">REPORTS&nbsp;<span class="fa fa-caret-down"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Annual Report</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Committee Report</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Knowledge Commission Report</a>
+                </li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Sarva Shiksha Abhiyan </a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Rashtiya Uchatar Shiksha Abhiyan
+                  - RUSA</a></li>
+              </ul>
+            </li>
+            <li class="dropdown ">
+              <a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#">DASHBOARD&nbsp;<span
+                class="fa fa-dashboard"></span></a>
+
+
+            </li>
+            <li class="dropdown ">
+              <a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#"
+                 aria-expanded="false">EDUCATION&nbsp;<span class="fa fa-caret-down"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Educational Network</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Collaborations</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Mobile Education</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Finishing Schools</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Vocal Education</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Community Colleges</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Distance Education</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Institutions in India</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Use of ICT</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Library Services</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Project Factory</a></li>
+              </ul>
+
+            </li>
+            <li class="dropdown ">
+              <a class="dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" href="#"
+                 aria-expanded="false">STUDENTS&nbsp;<span class="fa fa-caret-down"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Admission</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Scholarship</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Awards</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Ethics</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Loans</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Facilities for Differently
+                  abled</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Facilities for Girls</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Placements</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Want to be Entrepreneur</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Research funds</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Model Syllabus</a></li>
+              </ul>
+
+            </li>
+            <li class="dropdown ">
+              <a class="dropdown-toggle hvr-underline-from-center " data-toggle="dropdown" href="#"
+                 aria-expanded="false">BULLETIN&nbsp;<span class="fa fa-caret-down"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Advertisements</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Jobs</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Circulars</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Tenders</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Newsletters</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Photo-gallery</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Start-Up Policy</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="navbar-right">
+            <form method="post" class="navbar-form hidden-xs">
+              <label class="sr-only">SEARCH</label>
+              <input type="text" name="search" class="form-control extend-input" placeholder="Search"
+                     aria-describedby="search">
+              <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
+              </button>
+            </form>
           </div>
-        </div>
+        </nav>
       </div>
     </div>
   </nav>
