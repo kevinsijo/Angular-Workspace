@@ -1,10 +1,10 @@
-<!--
+
 <main class="container-fluid side-collapse-container">
-  &lt;!&ndash;Main jumbotron for a primary marketing message or call to action &ndash;&gt;
+ Main jumbotron for a primary marketing message or call to action
   <div class="row is-flex">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white-panel">
       <h3 class="page-header">Col 1</h3>
-      &lt;!&ndash;<form method="post" class="form-horizontal">
+      <form method="post" class="form-horizontal">
         <div class="form-group">
           <label for="inputName" class="col-sm-3 control-label hidden-xs">Institute Name</label>
           <div class="col-sm-9 col-xs-12">
@@ -52,7 +52,7 @@
         </div>
         <label>Year : </label>
         <select name="y">
-          <option disabled selected value=""> &#45;&#45;select an option&#45;&#45; </option>
+          <option disabled selected value=""> select an option</option>
           <option value="2016">2016</option>
           <option value="2015">2015</option>
           <option value="2014">2014</option>
@@ -75,39 +75,18 @@
         </div>
 
       </form>
-      </p>&ndash;&gt;
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white-panel">
-      <h3 class="page-header">Col 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum aliquet quam id faucibus. Orci
-        varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut ut volutpat
-        magna, maximus consequat justo. Aliquam nec urna vulputate, elementum magna ut, posuere dolor. Donec
-        vel tempor eros, ut auctor tortor. Nunc rutrum pretium enim, ultrices volutpat ipsum auctor et.
-        Aenean nec orci quis augue faucibus efficitur. Sed sodales posuere nulla, sit amet tristique risus
-        hendrerit ac. Phasellus ultricies, arcu et lobortis suscipit, est nulla viverra ex, non rhoncus
-        purus turpis eu nulla. Vivamus eget nibh efficitur, dignissim ligula vitae, iaculis augue.
-        Vestibulum elit felis, sodales ac nisi et, vehicula lacinia ligula. Duis id luctus nulla, nec
-        fermentum magna.
-      </p>
     </div>
   </div>
   <div class="row is-flex">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white-panel">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white-panel">
       <h3 class="page-header">Col 3</h3>
       <canvas baseChart
-                   [datasets]="lineChartData"
-                   [labels]="lineChartLabels"
-                   [options]="lineChartOptions"
-                   [colors]="lineChartColors"
-                   [legend]="lineChartLegend"
-                   [chartType]="lineChartType"
-                   (chartHover)="chartHovered($event)"
-                   (chartClick)="chartClicked($event)"></canvas>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 white-panel">
-      <h3 class="page-header">Col 4</h3>
-
+                  [datasets]="barChartData"
+                  [labels]="barChartLabels"
+                  [options]="barChartOptions"
+                  [legend]="barChartLegend"
+                  [chartType]="barChartType">
+      </canvas>
     </div>
   </div>
-</main>
--->
+

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Box } from "./box";
-import { GenerateBoxService } from "./generate-box.service";
+import { GenerateBoxService } from "./Services/generate-box.service";
 
 
 @Component({

@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 import { Box } from "./box";
-import { GenerateBoxService } from "./generate-box.service";
+import { GenerateBoxService } from "./Services/generate-box.service";
 
 @Component({
   selector: 'aicte-temp2',

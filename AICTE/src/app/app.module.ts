@@ -57,6 +57,7 @@ import { ModelsyllabusComponent } from './Education/modelsyllabus.component';
 import { LibraryservicesComponent } from './Education/libraryservices.component';
 import { ProjectfactoryComponent } from './Education/projectfactory.component';
 import {DashboardComponent} from "./Dashboard/dashboard.component";
+import { ChartsModule } from "ng2-charts";
 
 @NgModule({
   declarations: [
@@ -117,6 +118,7 @@ import {DashboardComponent} from "./Dashboard/dashboard.component";
     FormsModule,
     HttpModule,
     routing,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

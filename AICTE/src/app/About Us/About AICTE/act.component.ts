@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { data } from './Data/abaicte.data';
-import { GenerateBoxService } from "../../Shared/generate-box.service";
+import { GenerateBoxService } from "../../Shared/Services/generate-box.service";
 
 @Component({
   selector: 'aicte-act',
