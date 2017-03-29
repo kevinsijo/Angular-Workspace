@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { data } from './Data/abaicte.data';
+import { data } from './Data/act.data';
 import { GenerateBoxService } from "../../Shared/Services/generate-box.service";
 
 @Component({

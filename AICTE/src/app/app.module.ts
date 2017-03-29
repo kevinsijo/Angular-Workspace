@@ -8,10 +8,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
 import { NavhomeComponent } from './navhome.component';
 import { routing} from './app.routing';
+import {RouterModule} from "@angular/router";
 
 import { RegoffComponent } from './About Us/regoff.component';
 import { FacComponent } from './About Us/fac.component';
-import { AdminbComponent } from './Bureaus/Administration Bureau/adminb.component';
 import { AcadbComponent } from './Bureaus/acadb.component';
 import { PquesComponent } from './Bureaus/pques.component';
 import { FinbComponent } from './Bureaus/finb.component';
@@ -58,6 +58,8 @@ import { LibraryservicesComponent } from './Education/libraryservices.component'
 import { ProjectfactoryComponent } from './Education/projectfactory.component';
 import {DashboardComponent} from "./Dashboard/dashboard.component";
 import { ChartsModule } from "ng2-charts";
+import {SharedModule} from "./Shared/shared.module";
+
 
 @NgModule({
   declarations: [
@@ -66,7 +68,6 @@ import { ChartsModule } from "ng2-charts";
     NavhomeComponent,
     RegoffComponent,
     FacComponent,
-    AdminbComponent,
     AcadbComponent,
     PquesComponent,
     FinbComponent,
@@ -118,7 +119,9 @@ import { ChartsModule } from "ng2-charts";
     FormsModule,
     HttpModule,
     routing,
-    ChartsModule
+    ChartsModule,
+    SharedModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { data } from './Data/abaicte.data';
 import { GenerateBoxService } from "../../Shared/Services/generate-box.service";
 
+
 @Component({
   selector: 'aicte-abaicte',
   templateUrl: './abaicte.component.html',
