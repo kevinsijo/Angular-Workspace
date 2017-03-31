@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 
@@ -56,9 +56,9 @@ import { InstinindiaComponent } from './Education/instinindia.component';
 import { ModelsyllabusComponent } from './Education/modelsyllabus.component';
 import { LibraryservicesComponent } from './Education/libraryservices.component';
 import { ProjectfactoryComponent } from './Education/projectfactory.component';
-import {DashboardComponent} from "./Dashboard/dashboard.component";
+import { DashboardComponent } from "./Dashboard/dashboard.component";
 import { ChartsModule } from "ng2-charts";
-import {SharedModule} from "./Shared/shared.module";
+import { SharedModule } from "./Shared/shared.module";
 
 
 @NgModule({
@@ -121,7 +121,8 @@ import {SharedModule} from "./Shared/shared.module";
     routing,
     ChartsModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
