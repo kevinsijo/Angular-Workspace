@@ -23,7 +23,7 @@
           <span class="icon-bar" id="bar2"></span>
           <span class="icon-bar" id="bar3"></span>
         </button>
-        <a [routerLink]="['home']" class="navbar-brand hidden-xs"><i class="fa fa-home" id="homeIcon"
+        <a [routerLink]="['./home']" class="navbar-brand hidden-xs"><i class="fa fa-home" id="homeIcon"
                                                      style="font-size: 2em;"></i></a>
       </div>
       <div class="navbar-inverse side-collapse in not-top" id="miniNav">
@@ -63,9 +63,9 @@
                 <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./administration_bureau']">Administrative Bureau</a></li>
                 <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./academic_bureau']">Academic Bureau</a></li>
                 <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./finance_bureau']">Finance Bureau</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./approval_buraeu']">Approval Bureau</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./approvals_bureau']">Approval Bureau</a></li>
                 <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./parliament_questions']">Parliament Questions</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Research,Institutions and faculty
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./rifd']">Research,Institutions and faculty
                   development</a></li>
               </ul>
             </li>
@@ -74,11 +74,11 @@
                  aria-expanded="false">GRIEVANCES&nbsp;<span class="fa fa-caret-down"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['anti_ragging']">Anti Ragging</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['right_to_information']">RTI</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['']">CVC</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Public grievance</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">SC/ST Cell</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./anti_ragging']">Anti Ragging</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./right_to_information']">RTI</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./central_vigilance_commission']">CVC</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./public_grievance']">Public grievance</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./sc_st_cell']">SC/ST Cell</a></li>
               </ul>
 
             </li>
@@ -87,12 +87,12 @@
                  aria-expanded="false">REPORTS&nbsp;<span class="fa fa-caret-down"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Annual Report</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Committee Report</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Knowledge Commission Report</a>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./annual_report']">Annual Report</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./committee_report']">Committee Report</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./knowledge_commission_report']">Knowledge Commission Report</a>
                 </li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Sarva Shiksha Abhiyan </a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Rashtiya Uchatar Shiksha Abhiyan
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./sarva_shiksha_abhiyan']">Sarva Shiksha Abhiyan </a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./rusa']">Rashtiya Uchatar Shiksha Abhiyan
                   - RUSA</a></li>
               </ul>
             </li>
@@ -107,17 +107,17 @@
                  aria-expanded="false">EDUCATION&nbsp;<span class="fa fa-caret-down"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Educational Network</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Collaborations</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Mobile Education</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Finishing Schools</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Vocal Education</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Community Colleges</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Distance Education</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Institutions in India</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Use of ICT</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Library Services</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Project Factory</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./educational_network']">Educational Network</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./collaborations']">Collaborations</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./mobile_education']">Mobile Education</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./finishing_schools']">Finishing Schools</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./vocational_education']">Vocational Education</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./community_colleges']">Community Colleges</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./distance_education']">Distance Education</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./institutions_in_india']">Institutions in India</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./use_of_ict']">Use of ICT</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./library_services']">Library Services</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./project_factory']">Project Factory</a></li>
               </ul>
 
             </li>
@@ -126,18 +126,18 @@
                  aria-expanded="false">STUDENTS&nbsp;<span class="fa fa-caret-down"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Admission</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Scholarship</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Awards</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Ethics</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Loans</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Facilities for Differently
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./admissions']">Admission</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./scholarships']">Scholarship</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./awards']">Awards</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./ethics']">Ethics</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./loans']">Loans</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./facilities_for_differently_abled']">Facilities for Differently
                   abled</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Facilities for Girls</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Placements</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Want to be Entrepreneur</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Research funds</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Model Syllabus</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./facilities_for_girls']">Facilities for Girls</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./placements']">Placements</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./want_to_be_an_entrepreneur']">Want to be an Entrepreneur</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./research_funds']">Research funds</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./model_syllabus']">Model Syllabus</a></li>
               </ul>
 
             </li>
@@ -146,13 +146,13 @@
                  aria-expanded="false">BULLETIN&nbsp;<span class="fa fa-caret-down"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Advertisements</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Jobs</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Circulars</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Tenders</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Newsletters</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Photo-gallery</a></li>
-                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['rifd']">Start-Up Policy</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./advertisements']">Advertisements</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./jobs']">Jobs</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./circulars']">Circulars</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./tenders']">Tenders</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./news_letters']">Newsletters</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./photo_gallery']">Photo-gallery</a></li>
+                <li><a class="hvr-shutter-out-horizontal" [routerLink]="['./startup_policy']">Start-Up Policy</a></li>
               </ul>
             </li>
           </ul>

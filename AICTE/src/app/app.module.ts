@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 
@@ -8,10 +8,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
 import { NavhomeComponent } from './navhome.component';
 import { routing} from './app.routing';
+import {RouterModule} from "@angular/router";
 
 import { RegoffComponent } from './About Us/regoff.component';
 import { FacComponent } from './About Us/fac.component';
-import { AdminbComponent } from './Bureaus/Administration Bureau/adminb.component';
 import { AcadbComponent } from './Bureaus/acadb.component';
 import { PquesComponent } from './Bureaus/pques.component';
 import { FinbComponent } from './Bureaus/finb.component';
@@ -57,8 +57,9 @@ import { ModelsyllabusComponent } from './Education/modelsyllabus.component';
 import { LibraryservicesComponent } from './Education/libraryservices.component';
 import { ProjectfactoryComponent } from './Education/projectfactory.component';
 import {DashboardComponent} from "./Dashboard/dashboard.component";
-import { ChartsModule } from "ng2-charts/ng2-charts";
-import { CanvasComponent } from './Dashboard/canvas.component';
+import { ChartsModule } from "ng2-charts";
+import {SharedModule} from "./Shared/shared.module";
+
 
 @NgModule({
   declarations: [
@@ -67,7 +68,6 @@ import { CanvasComponent } from './Dashboard/canvas.component';
     NavhomeComponent,
     RegoffComponent,
     FacComponent,
-    AdminbComponent,
     AcadbComponent,
     PquesComponent,
     FinbComponent,
@@ -112,8 +112,7 @@ import { CanvasComponent } from './Dashboard/canvas.component';
     ModelsyllabusComponent,
     LibraryservicesComponent,
     ProjectfactoryComponent,
-    DashboardComponent,
-    CanvasComponent
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -121,7 +120,8 @@ import { CanvasComponent } from './Dashboard/canvas.component';
     HttpModule,
     routing,
     ChartsModule,
-    ReactiveFormsModule
+    SharedModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

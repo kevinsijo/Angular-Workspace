@@ -1,9 +1,10 @@
 import {Routes, RouterModule} from "@angular/router";
 import {AdminbComponent} from "./adminb.component";
+import {AdminbStartComponent} from "app/Bureaus/Administration Bureau/adminb-start.component";
 
 
 const BUREAUS_ROUTES: Routes = [
-  { path: '', component: AdminbComponent, children: [
+  { path: '', component: AdminbStartComponent, children: [
     { path: '', component: AdminbComponent },
   ]}
 ];

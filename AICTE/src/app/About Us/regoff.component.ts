@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GenerateBoxService } from "../Shared/Services/generate-box.service";
 
-import { data } from './About AICTE/Data/abaicte.data';
+import { data } from './About AICTE/Data/regionaloffice.data';
 
 @Component({
   selector: 'aicte-regoff',

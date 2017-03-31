@@ -7,6 +7,8 @@ import {VigilanceproceduresComponent} from "./vigilanceprocedures.component";
 import {OfficeproceduresComponent} from "./officeprocedures.component";
 import {LegalproceduresComponent} from "./legalprocedures.component";
 
+
+
 const ABOUTUS_ROUTES: Routes = [
   { path: '', component: AbaicteStartComponent, children: [
     { path: '', component: AbaicteComponent },
