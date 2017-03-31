@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Http } from "@angular/http";
 import { Http, Response, Headers } from "@angular/http";
 import 'rxjs/Rx';
 
@@ -9,21 +8,21 @@ export class HttpService {
 
   constructor(private http : Http) { }
   
-  getData() {
+  startDashboard() {
     console.log("HTTP");
-    return this.http.get('http://localhost:3000/user')
+    return this.http.get('http://localhost:3000/dashboard')
       .map((response: Response) => response.json());
   }
   
-  /*postData( data: any ) {
+ queryDashboard(data: any) {
     const body = JSON.stringify(data);
     let headers = new Headers();
         headers.append('Content-Type', 'application/json');
-    return this.http.post('http://localhost:3000/user', body,{headers} )
+    return this.http.post('http://localhost:3000/dashboard', body,{headers} )
       .map((response: Response) => response.json());
   }
   
-  putData( data: any ) {
+  /*putData( data: any ) {
       const body = JSON.stringify(data);
       let headers = new Headers();
           headers.append('Content-Type', 'application/json');

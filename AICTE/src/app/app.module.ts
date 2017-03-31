@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 
@@ -57,7 +57,8 @@ import { ModelsyllabusComponent } from './Education/modelsyllabus.component';
 import { LibraryservicesComponent } from './Education/libraryservices.component';
 import { ProjectfactoryComponent } from './Education/projectfactory.component';
 import {DashboardComponent} from "./Dashboard/dashboard.component";
-import { ChartsModule } from "ng2-charts";
+import { ChartsModule } from "ng2-charts/ng2-charts";
+import { CanvasComponent } from './Dashboard/canvas.component';
 
 @NgModule({
   declarations: [
@@ -111,14 +112,16 @@ import { ChartsModule } from "ng2-charts";
     ModelsyllabusComponent,
     LibraryservicesComponent,
     ProjectfactoryComponent,
-    DashboardComponent
+    DashboardComponent,
+    CanvasComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     routing,
-    ChartsModule
+    ChartsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
