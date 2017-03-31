@@ -6,36 +6,50 @@ export const data : Box [] = [
     href: '',
     text: [
       {
-        header: 'Act',
+        header: 'CVC',
         body:
           `
-            THE ALL INDIA COUNCIL FOR TECHNICAL
-                            EDUCATION ACT 1987
-                            (No 52 OF 1987)
-                            <br>
+            <ul type="disc">
+                        <li>to exercise superintendence over the functioning of the Delhi Special Police Establishment
+                        (DSPE) with respect to investigation under the Prevention of Corruption Act, 1988; or offence
+                        under CRPC for certain categories of public servants and to give directions to the DSPE for
+                            purpose of discharging this responsibility;</li>
 
-                            (As Passed by the Houses of Parliament)
-                            An Act
-                            <br>
-                            To provide for the establishment of an All India Council for Technical Education with a view
-                            to the proper planning and co-ordinated development of the technical education system
-                            throughout the country,
-                            the promotion of qualitative improvements of such education in relation to planned
-                            quantitative growth and the regulation and proper maintenance of norms and standards in the
-                            technical education system
-                            and for matters connected therewith.
-          `
+                        <li>to review the progress of investigations conducted by the DSPE into offences alleged to have
+                            been committed under the PC Act;</li>
+
+                        <li>to undertake an inquiry or cause an inquiry or investigation to be made into any transaction in
+                        which a public servant working in any organisation, to which the executive control of the
+                        Government of India extends, is suspected or alleged to have acted for an improper purpose or in
+                            a corrupt manner;</li>
+
+                        <li>to tender independent and impartial advice to the disciplinary and other authorities in
+                        disciplinary cases, involving vigilance angle at different stages i.e. investigation, inquiry,
+                            appeal, review etc.;</li>
+
+                        <li>to exercise a general check and supervision over vigilance and anti-corruption work in
+                        Ministries or Departments of the Govt. of India and other organisations to which the executive
+                            power of the Union extends; and</li>
+
+                        <li>to chair the Committee for selection of Director (CBI), Director (Enforcement Directorate) and
+                            officers of the level of SP and above in DSPE.</li>
+
+                        <li>to undertake or cause an inquiry into complaints received under the Public Interest Disclosure
+                            and Protection of Informer and recommend appropriate action.</li>
+
+                        </ul>`
       }
     ],
-    link: [],
+    link: [
+      {
+        name: 'http://cvc.nic.in/',
+        href: 'http://cvc.nic.in/'
+      }
+    ],
     pdf: [
       {
-        "name": 'Anti-Ragging Undertaking',
-        "href": '',
-      },
-      {
-        "name": 'Anti-Ragging',
-        "href": '',
+        name: 'Online Application for Vigilance',
+        href: ''
       }
     ]
   }

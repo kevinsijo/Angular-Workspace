@@ -6,36 +6,49 @@ export const data : Box [] = [
     href: '',
     text: [
       {
-        header: 'Act',
+        header: 'SC/ST Cell',
         body:
           `
-            THE ALL INDIA COUNCIL FOR TECHNICAL
-                            EDUCATION ACT 1987
-                            (No 52 OF 1987)
-                            <br>
+            
+                            <p> The Scheduled Caste (SC) and Scheduled Tribes (ST) Cell in an institute promotes the special interests of students in the reserved category. It is expected to provide special inputs in areas where the students experience difficulties.</p>
+                            <p>The Cell may conduct regular remedial coaching classes on life skills, personality development, writing assignments and making presentations, as well as Hindi and local language classes. The Cell also is expected to organize interactive sessions and informal meetings with students to attend to their personal, social and academic problems.</p>
 
-                            (As Passed by the Houses of Parliament)
-                            An Act
-                            <br>
-                            To provide for the establishment of an All India Council for Technical Education with a view
-                            to the proper planning and co-ordinated development of the technical education system
-                            throughout the country,
-                            the promotion of qualitative improvements of such education in relation to planned
-                            quantitative growth and the regulation and proper maintenance of norms and standards in the
-                            technical education system
-                            and for matters connected therewith.
-          `
+                            <p>A Manual has been prepared in order to guide the students to optimally utilise the benefits of the schemes offered by the Government of India.</p>`
       }
     ],
     link: [],
     pdf: [
       {
-        "name": 'Anti-Ragging Undertaking',
-        "href": '',
+        name: 'SC/ST Booklet (prepared by TISS)',
+        href: '',
       },
       {
-        "name": 'Anti-Ragging',
-        "href": '',
+        name: 'Ministry of Social Justice and empowerment',
+        href: '',
+      },
+      {
+        name: 'List of Resolutions for Backward Classes',
+        href: '',
+      },
+      {
+        name: 'List of Resolutions for Scheduled Caste Welfare',
+        href: '',
+      },
+      {
+        name: 'Hand Book for Scheduled Tribes',
+        href: '',
+      },
+      {
+        name: 'Scholarships for Reserved students: Government of India',
+        href: '',
+      },
+      {
+        name: 'Schemes: Government of India',
+        href: '',
+      },
+      {
+        name: 'National Scheduled Castes Finance and Development Corporation',
+        href: '',
       }
     ]
   }

@@ -39,7 +39,7 @@ export const data : Box [] = [
       },
       {
         header: '',
-        body: `                        <h3 class="page-header text-capitalize"><a data-toggle="collapse" href="#collapsible1"
+        body: `<h3 class="page-header text-capitalize"><a data-toggle="collapse" href="#collapsible1"
                                                                    aria-expanded="false" aria-controls="collapsible1">
                             Board Of Architecture
                         </a></h3>
@@ -205,148 +205,7 @@ export const data : Box [] = [
                         
                         </div>`
       },
-      {
-        header: '',
-        body: `<h3 class="page-header text-capitalize"><a data-toggle="collapse" href="#collapsible2"
-                                                                   aria-expanded="false" aria-controls="collapsible2">Board
-                            of Hospitality & Tourism Management</a></h3>
-                        <div id="collapsible2" class="collapse"
-                             aria-labelledby="Board of Hospitality & Tourism Management">
-                            <table class="table table-bordered table-hover">
-                                <thead>
-                                <tr>
-                                    <th>Sr. No</th>
-                                    <th>Constituency</th>
-                                    <th>Name/Designation of Members</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        1
-                                    </td>
-                                    <td>
-                                        Chairman to be nominated by the Chairman, AICTE.
-                                    </td>
-                                    <td>
-                                        <strong>Dr. Sandeep Kulshreshtha,</strong><br>
-                                        Director, IITTM, Gwalior
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        2
-                                    </td>
-                                    <td>
-                                        Representative of the Ministry of Tourism, Govt. of India – to be nominated by
-                                        the Chairman, AICTE. (One)
-                                    </td>
-                                    <td>
-                                        <strong>Representative of Ministry of Tourism</strong><br>
-                                        Government of India, Room No. 123, Transport
-                                        Bhawan, No. 1, Parliament Street,
-                                        New Delhi - 110 001 (India)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        3-6
-                                    </td>
-                                    <td>
-                                        Representatives of Universities, major users (ITDC, Hotels, Caterers)
-                                        representative of Institutions conducting HMCT Courses at PG level- (To be
-                                        nominated by the Chairman, AICTE). (Four)
-                                    </td>
-                                    <td>
-                                        <strong>Dr. Sitikant Mishra</strong><br> Ex-Director
-                                        IITTM-Gwalior, Kamalyan
-                                        HIG-35, 7 Acres, Chandreshekharpur,
-                                        Bhubneshwar 751 016, Odisha
 
-                                        <br><strong>Prof. Prashant Gautam</strong><br> Director, University Institute of
-                                        Hotel and
-                                        Tourism Management, Panjab University,
-                                        Chandigarh
-
-
-                                        <br><strong>Dr. K. K. Bhat</strong><br> Principal,
-                                        Maharashtra State Institute of
-                                        Hotel Management, and Catering Technology
-                                        Pune, Maharashtra
-
-                                        <br><strong>Principal</strong><br>Institute of Hotel Management, Catering
-                                        Technology & Applied Nutrition,
-                                        IV Cross Street, CIT Campus,
-                                        TTTI-Taramani, P.O., Chennai – 600 113
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        7-9
-                                    </td>
-                                    <td>
-                                        Representatives of Central Govt. Departments / Undertakings (Railways, Indian
-                                        Airlines, Air India, IAAI, Shipping) To be nominated by respective bodies).
-                                        (Three)
-                                    </td>
-                                    <td>
-                                        <br><strong>Nominee of Railways Deptt.</strong><br> Railway Board
-                                        Ministry of Railway
-                                        Rafi Marg
-                                        New Delhi – 110 001
-
-                                        <br><strong>Nominee of Indian Airlines</strong><br>
-                                        Indian Air Lines H.Q.
-                                        New Delhi
-
-                                        <br><strong>Nominee of Shipping</strong><br>
-                                        Directorate General of Shipping,
-                                        Jahaj Bhavan, Walchand H. Marg
-                                        Mumbai – 400 001
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        10
-                                    </td>
-                                    <td>
-                                        Representative of Hotel/ Restaurant Association. To be nominated by the National
-                                        Council for HMCT. (One)
-                                    </td>
-                                    <td>
-                                        <strong>Representative</strong> of Federation of Hotel & Restaurant Associations
-                                        of India
-                                        B-82, 8th Floor, Himalaya House,
-                                        23,Kasturba Gandhi Marg,
-                                        New Delhi-110001
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        11
-                                    </td>
-                                    <td>
-                                        Member Secretary of the Board.
-                                    </td>
-                                    <td>
-                                        <strong>Adviser/Director, AICTE</strong>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <div class="text-center">
-                                The term of office of a member, other than an ex-officio member, shall be three years
-                                from the date of notification.
-                            </div>
-                            <div>
-                                <a data-toggle="collapse" href="#collapsible2"
-                                   aria-expanded="false" aria-controls="collapsible2"><i
-                                        class="fa fa-angle-double-up pull-right" aria-hidden="true"
-                                        style="font-size: 2em;"></i>
-                                </a>
-                            </div>
-                        </div>`
-      }
     ],
     link: [],
     pdf: []

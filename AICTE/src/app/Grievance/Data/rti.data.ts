@@ -6,36 +6,30 @@ export const data : Box [] = [
     href: '',
     text: [
       {
-        header: 'Act',
+        header: 'RTI',
         body:
           `
-            THE ALL INDIA COUNCIL FOR TECHNICAL
-                            EDUCATION ACT 1987
-                            (No 52 OF 1987)
-                            <br>
-
-                            (As Passed by the Houses of Parliament)
-                            An Act
-                            <br>
-                            To provide for the establishment of an All India Council for Technical Education with a view
-                            to the proper planning and co-ordinated development of the technical education system
-                            throughout the country,
-                            the promotion of qualitative improvements of such education in relation to planned
-                            quantitative growth and the regulation and proper maintenance of norms and standards in the
-                            technical education system
-                            and for matters connected therewith.
+            <p>Right to Information Act 2005 mandates timely response to citizen requests for government information. It is an initiative taken by Department of Personnel and Training, Ministry of Personnel, Public Grievances and Pensions to provide a– RTI Portal Gateway to the citizens for quick search of information on the details of first Appellate Authorities,PIOs etc. amongst others, besides access to RTI related information / disclosures published on the web by various Public Authorities under the government of India as well as the State Governments</p>
           `
       }
     ],
     link: [],
     pdf: [
       {
-        "name": 'Anti-Ragging Undertaking',
-        "href": '',
+        name: 'RTI Online',
+        href: '',
       },
       {
-        "name": 'Anti-Ragging',
-        "href": '',
+        name: 'Information under Section - 4 of RTI Act, 2005',
+        href: '',
+      },
+      {
+        name: 'RTI Information Service Portal',
+        href: '',
+      },
+      {
+        name: 'Details of RTI applications,Appeals and their replies',
+        href: '',
       }
     ]
   }

@@ -6,7 +6,7 @@ export const data : Box [] = [
     href: '',
     text: [
       {
-        header: 'Act',
+        header: 'Project Factory',
         body:
           `
             
@@ -16,12 +16,32 @@ export const data : Box [] = [
     link: [],
     pdf: [
       {
-        "name": 'Anti-Ragging Undertaking',
-        "href": '',
+        name: 'IEEE Author Workshops Registration',
+        href: '',
       },
       {
-        "name": 'Anti-Ragging',
-        "href": '',
+        name: 'Get Institute Id',
+        href: '',
+      },
+      {
+        name: 'Create Student profile',
+        href: '',
+      },
+      {
+        name: 'Upload Project',
+        href: '',
+      },
+      {
+        name: 'Download Project',
+        href: '',
+      },
+      {
+        name: 'Help file for Project Factory',
+        href: '',
+      },
+      {
+        name: 'How to publish a Technical Paper',
+        href: '',
       }
     ]
   }

@@ -6,36 +6,32 @@ export const data : Box [] = [
     href: '',
     text: [
       {
-        header: 'Act',
+        header: 'PUBLIC GRIEVANCES',
         body:
           `
-            THE ALL INDIA COUNCIL FOR TECHNICAL
-                            EDUCATION ACT 1987
-                            (No 52 OF 1987)
-                            <br>
+          <p>Every employee has a Constitutional right of access to all information held by the State or any of its organs at all levels of government in so far as such information is required for the exercise or protection of any of his or her rights. If an employer should refuse to release such information, or any part thereof, comprehensive reasons for such refusal shall be provided. Other information on any document, which an employee is not entitled to, may be deleted. The officer requesting the information will have to satisfy the department that the information is required to assist him/her in the proper preparation and lodging of his/her grievance. No confidential information about an employee may be divulged.</p>
 
-                            (As Passed by the Houses of Parliament)
-                            An Act
-                            <br>
-                            To provide for the establishment of an All India Council for Technical Education with a view
-                            to the proper planning and co-ordinated development of the technical education system
-                            throughout the country,
-                            the promotion of qualitative improvements of such education in relation to planned
-                            quantitative growth and the regulation and proper maintenance of norms and standards in the
-                            technical education system
-                            and for matters connected therewith.
+                            <p>The right of access to information has certain limitations imposed by law. These limitations can be found in section 36 of the Constitution, sections 14 and 16 of the Labour Relations Act, 1995, as well as the Promotion of Access to Information Act.</p>
+
+                            <p>An aggrieved must at all times be provided with information about the status of the grievance and the progress made towards the finalisation of the grievance. This is an inherent part of the duty of a Designated Employee (Rule E3).</p>
+ 
           `
       }
     ],
-    link: [],
-    pdf: [
+    link: [
       {
-        "name": 'Anti-Ragging Undertaking',
-        "href": '',
+        name: 'http://pgportal.gov.in/grm.aspx',
+        href: 'http://pgportal.gov.in/grm.aspx',
       },
       {
-        "name": 'Anti-Ragging',
-        "href": '',
+        name: '>http://darpg.nic.in/',
+        href: '>http://darpg.nic.in/',
+      }
+    ],
+    pdf: [
+      {
+        name: 'Grievance Procedures',
+        href: '',
       }
     ]
   }
