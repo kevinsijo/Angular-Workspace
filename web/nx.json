@@ -1,0 +1,24 @@
+{
+   "npmScope": "aics",
+   "implicitDependencies": {
+      "angular.json": "*",
+      "package.json": "*",
+      "tsconfig.json": "*",
+      "tslint.json": "*",
+      "nx.json": "*"
+   },
+   "projects": {
+      "prima": {
+         "tags": []
+      },
+      "prima-e2e": {
+         "tags": []
+      },
+      "gen": {
+         "tags": []
+      },
+      "text": {
+         "tags": []
+      }
+   }
+}
